@@ -10,6 +10,9 @@ function Nav() {
         <li>
           <NavLink to="/sequencias">Sequências</NavLink>
         </li>
+        <li>
+          <NavLink to="/setores">Setores</NavLink>
+        </li>
       </ul>
     </nav>
   );

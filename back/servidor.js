@@ -12,6 +12,9 @@ servidor.use("/individuos", IndividuoRouter);
 const SequenciaRouter = require("./routes/SequenciaRouter");
 servidor.use("/sequencias", SequenciaRouter);
 
+const SetorRouter = require("./routes/SetorRouter");
+servidor.use("/setores", SetorRouter);
+
 //Index
 servidor.get("/", function (req, res) {
   res.send("Servidor rodando...");
